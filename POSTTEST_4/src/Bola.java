@@ -15,9 +15,10 @@ public class Bola extends BarangOlahraga {
         this.jenisBola = jenisBola;
     }
 
+    // OVERRIDING
     @Override
     public void tampilData() {
-        super.tampilData();
+        super.tampilData(true);
         System.out.println("Jenis Bola  : " + jenisBola);
         System.out.println("----------------------------");
     }
