@@ -21,4 +21,4 @@ public class Raket extends BarangOlahraga {
         System.out.println("Jenis Raket : " + jenisRaket);
         System.out.println("----------------------------");
     }
-}   
+}
